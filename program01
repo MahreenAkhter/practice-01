@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int valueOne = 5;
+	int valueTwo = 10;
+	int valueThree = 5;
+	
+	if(valueOne==valueThree && valueOne==valueTwo)
+	{
+		cout<<"If condition is true";
+	}
+	else
+	{
+		cout<<"The condition is false";
+	}
+}
